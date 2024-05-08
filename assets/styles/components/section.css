@@ -1,0 +1,54 @@
+/* Section
+############################################################################ */
+
+section {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--size-l);
+
+  --border-color: var(--color-darkest);
+
+  &.snap-in{
+    scroll-snap-align: start;
+  }
+
+  &.mi-blau, &.mi-pink, &.mi-gruen, &.mi-lila, &.mi-black, &.mi-grau{
+    h1, h2, h3, p{
+      color: var(--color-lightest);
+
+      --border-color: var(--color-lightest);
+    }
+  }
+
+  &.mi-blau {
+    background-color: var(--color-mi-blau);
+  }
+
+  &.mi-pink {
+    background-color: var(--color-mi-pink);
+  }
+
+  &.mi-gruen {
+    background-color: var(--color-mi-gruen);
+  }
+
+  &.mi-lila {
+    background-color: var(--color-mi-lila);
+  }
+
+  &.mi-black {
+    background-color: var(--color-mi-black);
+  }
+
+  &.mi-grau {
+    background-color: var(--color-mi-grau);
+  }
+
+  &.mi-hellgrau {
+    background-color: var(--color-mi-hellgrau);
+  }
+}

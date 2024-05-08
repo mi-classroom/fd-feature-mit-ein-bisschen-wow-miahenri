@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "source-sans-3";
+  src: url("../fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: roboto-slab;
+  src: url("../fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ibm-plex;
+  font-weight: 200;
+  src: url("../fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ibm-plex;
+  font-weight: 400;
+  src: url("../fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ibm-plex;
+  font-weight: 500;
+  src: url("../fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: material-icons;
+  src: url("../fonts/Material_Icons/font/MaterialIconsOutlined-Regular.otf") format("opentype");
+}

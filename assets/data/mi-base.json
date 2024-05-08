@@ -1,0 +1,103 @@
+{
+  "data": [
+    {
+      "id": "home",
+      "title": "Medieninformatik studieren",
+      "background": "auto",
+      "subtitle": "Die Medieninformatik eine aufregende und dynamische Disziplin, die dir sowohl technisches Know-how, Mensch-zentrierte Gestaltungsprozesse als auch kreative Möglichkeiten bietet, um deine Leidenschaften zu verfolgen und einen Beitrag zur digitalen Welt zu leisten.",
+      "links": [
+        {
+          "text": "Bachelor",
+          "url": "#bachelor"
+        },
+        {
+          "text": "Master",
+          "url": "#master"
+        },
+        {
+          "text": "Atmosphäre",
+          "url": "#atmosphere"
+        },
+        {
+          "text": "Kommentare",
+          "url": "#quote-anna"
+        }
+      ],
+      "layout": "home"
+    },
+    {
+      "id": "atmosphere",
+      "layout": "image-stripe",
+      "images": [
+        "./images/Hybride-Lehre_Kohls_DSC2852.jpg",
+        "./images/DSC6076.jpg",
+        "./images/8N1B3676.jpg",
+        "./images/DSC08493.jpg",
+        "./images/moxd-lab-projektarbeit_DSC0926.jpg"
+      ]
+    },
+    {
+      "id": "bachelor",
+      "title": "Medieninformatik Bachelor",
+      "subtitle": "Der Bachelor-Studiengang Medieninformatik ist ein berufsqualifizierendes grundständiges Studium und führt zum ersten Hochschulabschluss. Er befähigt dich in interdisziplinären Teams digitale Medien und interaktive digitale Produkte nutzerzentriert zu konzipieren, zu entwickeln, in den Markt zu bringen, zu evaluieren und kritisch zu hinterfragen. Der Medienbegriff bezieht sich hierbei vor allem auf interaktive Kommunikations- und Kollaborationsmedien und -produkte.",
+      "links": [
+        {
+          "text": "Studienverlauf",
+          "url": "#studienverlauf"
+        },
+        {
+          "text": "Module",
+          "url": "#module"
+        },
+        {
+          "text": "Bewerbung",
+          "url": "#bewerbung"
+        }
+      ],
+      "layout": "page",
+      "image": "./images/hans.jpg",
+      "cssClasses": "has-grid is-layout-1"
+    },
+    {
+      "id": "master",
+      "title": "Medieninformatik Master",
+      "subtitle": "Der Studiengang baut auf dem Bachelor-Studiengang Medieninformatik der TH Köln und anderer Hochschulen sowie weiteren, einschlägigen Informatik-Bachelor-Studiengängen auf. Es ist ein projektorientierter Studiengang mit einer hohen Wahlfreiheit für eigene Spezialisierungen in drei Schwerpunkten. Das Design des Studiengangs bietet dabei Raum für individuelle Studienverläufe, die zeitgleich eine enge Orientierung an aktuellen und zukunftsgewandten Berufsbildern gewährleisten.",
+      "links": [
+        {
+          "text": "Studienverlauf",
+          "url": "#studienverlauf"
+        },
+        {
+          "text": "Module",
+          "url": "#module"
+        },
+        {
+          "text": "Bewerbung",
+          "url": "#bewerbung"
+        }
+      ],
+      "image": "./images/usability-testing.jpg",
+      "layout": "page",
+      "cssClasses": "has-grid is-layout-2 mi-lila"
+    },
+    {
+      "id": "quote-anna",
+      "layout": "quote",
+      "quote": "Ich habe dieses Semester anfangen Medieninformatik zu studieren und ich bereue meine Entscheidung ganz und gar nicht. Die Dozenten und Mitarbeiter dieser Uni sind sehr freundlich und man merkt, dass sie Spaß daran haben uns das Modul beizubringen. Daher bekommt man auch selber als Student mehr Motivation den Inhalt zu lernen. Ich kann diese Uni nur weiter empfehlen.",
+      "author": "Anna (Bachelor)",
+      "date": "13.11.2023",
+      "url": "https://www.studycheck.de/studium/medieninformatik/th-koeln-2052/bericht-560074",
+      "image": "./images/bg-stripes.svg"
+    }
+    ,
+    {
+      "id": "quote-juli",
+      "layout": "quote",
+      "quote": "Ich bin von einer anderen Hochschule gekommen und muss sagen, dass die Dozenten hier wesentlich \"familiärer\" sind, zudem liegt diesen der Erfolg der Studenten am Herzen. Die Inhalte werden gut kommuniziert - kommt aber manchmal schon auf den Dozenten an. Der Campus und die Ausstattung ist relativ neu. Es gibt viele coole Räume 😎.",
+      "author": "Juli (Master)",
+      "date": "14.03.2024",
+      "url": "https://www.studycheck.de/studium/medieninformatik/th-koeln-2052/bericht-560074",
+      "image": "./images/moxd-lab-projektarbeit_DSC1122.jpg"
+    }
+  ]
+}

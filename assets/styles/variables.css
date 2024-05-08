@@ -1,0 +1,72 @@
+/* stylelint-disable */
+
+:root {
+
+  /* Colors */
+  --color-mi-blau: #4952e1;
+  --color-mi-pink: #d16;
+  --color-mi-gruen: #00ad2f;
+  --color-mi-lila: #9313ce;
+  --color-mi-black: #231f20;
+  --color-mi-grau: #aaa;
+  --color-mi-hellgrau: #efefef;
+  --color-light: hsl(0deg 0% 80%);
+  --color-lighter: hsl(0deg 0% 90%);
+  --color-lightest: hsl(0deg 0% 100%);
+  --color-dark: hsl(0deg 0% 20%);
+  --color-darker: hsl(0deg 0% 10%);
+  --color-darkest: hsl(0deg 0% 0%);
+  --color-lighten: hsl(0deg 0% 100%/ 50%);
+  --color-lighten-strong: hsl(0deg 0% 100%/ 80%);
+
+  /* Fonts */
+  --ff-headlines: roboto-slab, arial, helvetica, sans-serif;
+  --ff-primary: ibm-plex, arial, helvetica, sans-serif;
+  --ff-icons: material-icons;
+
+  /* Font weights */
+  --fw-light: 200;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
+
+  /* Line heights */
+  --lh-tight: 100%;
+  --lh-normal: 130%;
+  --lh-loose: 150%;
+
+  /* Sizes */
+  /* Renard 10 */
+  --basefont-size: clamp(0.8rem, 2vw, 1.3rem);
+  --size-xs: calc(var(--basefont-size) * 0.25);
+  --size-s: calc(var(--basefont-size) * 0.6);
+  --size-m: calc(var(--basefont-size) * 1);
+  --size-l: calc(var(--basefont-size) * 1.5);
+  --size-xl: calc(var(--basefont-size) * 2.2);
+  --size-xxl: calc(var(--basefont-size) * 3);
+  --size-xxxl: calc(var(--basefont-size) * 4);
+  --size-eighth: calc(var(--size-m) / 8);
+  --size-quarter: calc(var(--size-m) / 4);
+  --size-half: calc(var(--size-m) / 2);
+
+  /* Transitions */
+  --tr-fast: 0.3s;
+  --tr-normal: 0.6s;
+  --tr-slow: 1s;
+
+  /* Box Sizes */
+  --max-text-width: 40em;
+  --max-content-width: 60em;
+
+  /* Buttons */
+  --button-border-width: var(--border-width);
+  --button-border-color: var(--color-darkest);
+  --button-text-color: var(--color-darkest);
+  --button-bg-color: var(--color-lighten);
+  --button-bg-hover-color: var(--color-lighten-strong);
+
+  /* Misc */
+  --border-width: clamp(2px, 0.3vw, 5px);
+  --level-bg: 0;
+  --level-fg: 10;
+}

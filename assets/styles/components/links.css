@@ -1,0 +1,29 @@
+/* Links
+############################################################################ */
+
+.links {
+  display: flex;
+  margin-top: var(--size-l);
+  gap: var(--size-s);
+  
+  li{
+    display: inline-block;
+    padding: var(--size-quarter) var(--size-s);
+    border: solid var(--button-border-width) var(--button-border-color);
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    line-height: 0;
+    transition: all var(--tr-fast);
+
+    *{
+      font-weight: var(--fw-medium);
+      line-height: 100%;
+    }
+
+    &:hover{
+      background-color: var(--button-bg-hover-color);
+      transform: skew(-15deg);
+    }
+  }
+
+}
